@@ -26,7 +26,7 @@ public class Aula implements Comparable<Aula>{
 
 	@Override
 	public int compareTo(Aula outraAula) {
-		return this.titulo.compareTo(titulo);
+		return this.titulo.compareTo(outraAula.titulo);
 	}
 	
 	
